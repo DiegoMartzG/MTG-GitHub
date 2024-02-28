@@ -16,10 +16,32 @@ header{
 nav{
     grid-area: zn;
     background-color: rgb(180, 255, 230);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 section{
     grid-area: zs;
     background-color: rgb(204, 221, 215);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section>div{
+    margin: 10px;
+}
+#utilidad{
+    background-color: rgb(255, 138, 138);
+    text-align: center;
+
+}
+#materia{
+    background-color: rgb(248, 175, 255);
+    text-align: center;
+}
+#cursos{
+    background-color: rgb(239, 255, 168);
+    text-align: center;
 }
 footer{
     grid-area: zf;
